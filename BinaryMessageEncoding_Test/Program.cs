@@ -31,10 +31,10 @@ public class Program
 
         // Display both messages
         Console.WriteLine("Original Message:");
-        Helper.PrintMessage(message);
+        Helper.ShowMessage(message);
 
         Console.WriteLine("\n Decoded Message:");
-        Helper.PrintMessage(decodedMessage);
+        Helper.ShowMessage(decodedMessage);
 
         bool messagesMatch = Helper.AreMessagesEqual(message, decodedMessage);
         Console.WriteLine($"\nOriginal and Decoded Messages Matched: {messagesMatch}");

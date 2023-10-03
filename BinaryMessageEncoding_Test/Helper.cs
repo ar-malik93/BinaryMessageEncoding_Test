@@ -8,7 +8,7 @@ namespace BinaryMessageEncoding_Test
 {
     public static class Helper
     {
-        public static void PrintMessage(Message message)
+        public static void ShowMessage(Message message)
         {
             Console.WriteLine("Headers:");
             foreach (var entry in message.headers)
